@@ -1,3 +1,7 @@
 .heroText {
   background-color: #343a4070;
 }
+
+.shadowBox {
+  box-shadow: 5px -5px 20px 0 white;
+}
