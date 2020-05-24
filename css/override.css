@@ -4,4 +4,11 @@
 
 .shadowBox {
   box-shadow: 5px -5px 20px 0 white;
+  background-color: white;
+  overflow: hidden;
+  height: 220px;
+}
+
+.textJustify {
+  text-align: justify;
 }
