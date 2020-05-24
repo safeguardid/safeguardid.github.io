@@ -1,5 +1,5 @@
 .heroText {
-  background-color: #343a4070;
+  background-color: #0080ff70;
 }
 
 .shadowBox {
@@ -11,4 +11,32 @@
 
 .textJustify {
   text-align: justify;
+}
+
+/* For mobile phones: */
+.site-section-cover h1 {
+  font-size: 1.5rem;
+}
+
+.site-section-cover p {
+  font-size: 1rem;
+}
+
+.owl-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .site-section-cover h1 {
+    font-size: 2rem;
+  }
+
+  .site-section-cover p {
+    font-size: 1.5rem;
+  }
 }
